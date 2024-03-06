@@ -3,5 +3,6 @@ session_start();
 ?>
 <form action = "login.php" method="post">
     Username:<input type = "text" name="txtUserName"><br>
-    Mật Khẩu: <input type="password" name="txtmatkhau"><br>
+    Password: <input type="password" name="txtpassword"><br>
+    <input type="submit" value="Đăng nhập">
 </form>
